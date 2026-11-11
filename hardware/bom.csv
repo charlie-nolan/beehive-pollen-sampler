@@ -1,0 +1,27 @@
+subsystem,part,qty,notes
+hive node,ESP32-S3 dev board,1,always-on node; mostly asleep
+motion,ESP32-S3 dev board,1,PLC-style step sequence for the pollen robot
+imaging,Raspberry Pi Zero 2 W,1,power-gated per sample; SQLite master copy
+imaging,Pi camera (lens removed for microscope),1,phase 2 microscope
+imaging,20x/0.4 RMS objective + tube lens,1,phase 2 microscope
+timekeeping,DS3231 RTC,1,time master
+weight,load cell,4,on a separate scale frame with ant moats
+weight,HX711 amplifier,1,
+climate,SHT45 temperature/humidity sensor,2,brood box and outside
+climate,DS18B20 probe,8,row across the frames; count depends on hive type
+sound,INMP441 I2S microphone,1,FFT on the ESP32
+traffic,IR break-beam pair,4,entrance tunnels; count depends on entrance width
+motion,servo,1,trap grid; parks open on boot
+motion,stepper + TMC2209 driver,3,"tape capstan, wire feeds, Z focus (28BYJ-48 for Z)"
+motion,solenoid,1,wire snip
+power,18650 cell,2,~20 Wh
+power,bq24074 charger with NTC,1,no charging below 0 C
+power,MAX17048 fuel gauge,1,
+power,supercap,1,parks the grid open on brownout
+power,10 W solar panel,1,on its own post; GX12 plug
+enclosure,IP65 junction box,1,slide-out electronics drawer
+consumables,16 mm clear polyester film leader,1,cover film with sprocket holes
+consumables,12 mm clear acrylic-adhesive tape,1,sample tape (first trials)
+consumables,35-38 AWG stainless wire,1,cut wire
+consumables,0.3-0.4 mm spring stainless wire,1,skewer
+consumables,silica gel desiccant,1,per cassette
