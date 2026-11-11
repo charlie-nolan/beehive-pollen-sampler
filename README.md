@@ -33,11 +33,14 @@ choice of flowers her own, or a decision the colony makes together? See [docs/ex
 
 Full design in [docs/design.md](docs/design.md).
 
+**How this design evolved:** every idea, what changed, the dead ends and the key decisions are in [docs/design-history.md](docs/design-history.md).
+
 ## Repository layout
 
 | Path | Contents |
 |---|---|
 | `docs/design.md` | Mechanism, enclosure zones, telemetry, compute, power, connectivity |
+| `docs/design-history.md` | How the design evolved: timeline, every idea's versions, dead ends, key decisions |
 | `docs/experiment.md` | The forager crossover study, controls, sampling and contamination checks |
 | `docs/bench-tests.md` | The first bench tests, each with what counts as a pass |
 | `data/schema.sql` | Draft SQLite schema for the export a lab receives |
